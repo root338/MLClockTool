@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nTR-YY-XIH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Clock View Controller-->
+        <scene sceneID="IYE-cH-BLo">
+            <objects>
+                <viewController id="nTR-YY-XIH" customClass="MLClockViewController" customModule="MLClockTool" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ED8-k7-2Ia">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时间计算器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUm-GL-cmZ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Wrd-pP-hh8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Yap-Pz-UeW">
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="559117560.74014795">
+                                    <!--2018-09-20 06:26:00 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yap-Pz-UeW" firstAttribute="bottom" secondItem="UXl-d5-5XD" secondAttribute="bottom" id="0RO-Yl-OqJ"/>
+                            <constraint firstItem="Yap-Pz-UeW" firstAttribute="trailing" secondItem="UXl-d5-5XD" secondAttribute="trailing" id="0pl-ym-CCz"/>
+                            <constraint firstItem="Yap-Pz-UeW" firstAttribute="leading" secondItem="UXl-d5-5XD" secondAttribute="leading" id="KLr-5p-hfY"/>
+                            <constraint firstItem="UXl-d5-5XD" firstAttribute="top" secondItem="ZUm-GL-cmZ" secondAttribute="top" id="ODU-WK-fkN"/>
+                            <constraint firstItem="UXl-d5-5XD" firstAttribute="trailing" secondItem="ZUm-GL-cmZ" secondAttribute="trailing" id="lIP-Iw-9pP"/>
+                            <constraint firstItem="ZUm-GL-cmZ" firstAttribute="leading" secondItem="UXl-d5-5XD" secondAttribute="leading" id="mxY-ft-rFL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UXl-d5-5XD"/>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="Yap-Pz-UeW" id="1OS-gS-zJ9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRI-SW-S8H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12" y="21.139430284857571"/>
+        </scene>
+    </scenes>
+</document>
