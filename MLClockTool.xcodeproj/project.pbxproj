@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1811A1F8216D9AA400927D36 /* MLClockDateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811A1F7216D9AA400927D36 /* MLClockDateProtocol.swift */; };
+		1811A1FA216D9B3C00927D36 /* MLClockDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811A1F9216D9B3C00927D36 /* MLClockDateModel.swift */; };
+		1811A1FE216D9C3800927D36 /* MLClockOffsetDayDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811A1FD216D9C3800927D36 /* MLClockOffsetDayDateModel.swift */; };
 		183224552153719F009A7439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183224542153719F009A7439 /* Main.storyboard */; };
-		183224572153761F009A7439 /* MLClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183224562153761F009A7439 /* MLClockViewController.swift */; };
-		1832245921537779009A7439 /* MLClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832245821537779009A7439 /* MLClockTableViewCell.swift */; };
 		1832245B21537AE6009A7439 /* MLClockDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832245A21537AE6009A7439 /* MLClockDataList.swift */; };
-		1832245D21537E3A009A7439 /* MLClockTableProtocolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832245C21537E3A009A7439 /* MLClockTableProtocolManager.swift */; };
 		1832245F21538186009A7439 /* MLClockDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832245E21538186009A7439 /* MLClockDateManager.swift */; };
 		184B81342154884200EAFAA0 /* MLClockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B81332154884200EAFAA0 /* MLClockDetailView.swift */; };
 		184B813E21548A5900EAFAA0 /* Label+MLCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B813D21548A5900EAFAA0 /* Label+MLCreate.swift */; };
 		184B8140215496D200EAFAA0 /* View+MLAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B813F215496D200EAFAA0 /* View+MLAdd.swift */; };
+		189ECB29215C786E00CD29B6 /* MLClockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ECB28215C786E00CD29B6 /* MLClockListViewController.swift */; };
+		189ECB37215C882F00CD29B6 /* MLClockListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ECB36215C882F00CD29B6 /* MLClockListManager.swift */; };
+		18B3F0D0216D9F6D00874E5C /* MLClockDefineConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3F0CF216D9F6D00874E5C /* MLClockDefineConstants.swift */; };
 		18BB5E2021534ABA0088EB96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB5E1F21534ABA0088EB96 /* AppDelegate.swift */; };
 		18BB5E2721534AC00088EB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BB5E2621534AC00088EB96 /* Assets.xcassets */; };
 		18BB5E2A21534AC00088EB96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BB5E2821534AC00088EB96 /* LaunchScreen.storyboard */; };
 		18BB5E3521534AC10088EB96 /* MLClockToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB5E3421534AC10088EB96 /* MLClockToolTests.swift */; };
 		18BB5E4021534AC10088EB96 /* MLClockToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB5E3F21534AC10088EB96 /* MLClockToolUITests.swift */; };
+		18C9EC98215CC15200C9CAC6 /* MLClockListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9EC97215CC15200C9CAC6 /* MLClockListTableViewCell.swift */; };
+		18C9EC9A215CC2C900C9CAC6 /* MLClockNullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9EC99215CC2C900C9CAC6 /* MLClockNullView.swift */; };
+		18C9EC9C215CD09100C9CAC6 /* View+MLLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9EC9B215CD09100C9CAC6 /* View+MLLayoutExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,15 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1811A1F7216D9AA400927D36 /* MLClockDateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDateProtocol.swift; sourceTree = "<group>"; };
+		1811A1F9216D9B3C00927D36 /* MLClockDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDateModel.swift; sourceTree = "<group>"; };
+		1811A1FD216D9C3800927D36 /* MLClockOffsetDayDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockOffsetDayDateModel.swift; sourceTree = "<group>"; };
 		183224542153719F009A7439 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		183224562153761F009A7439 /* MLClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockViewController.swift; sourceTree = "<group>"; };
-		1832245821537779009A7439 /* MLClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockTableViewCell.swift; sourceTree = "<group>"; };
 		1832245A21537AE6009A7439 /* MLClockDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDataList.swift; sourceTree = "<group>"; };
-		1832245C21537E3A009A7439 /* MLClockTableProtocolManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockTableProtocolManager.swift; sourceTree = "<group>"; };
 		1832245E21538186009A7439 /* MLClockDateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDateManager.swift; sourceTree = "<group>"; };
 		184B81332154884200EAFAA0 /* MLClockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDetailView.swift; sourceTree = "<group>"; };
 		184B813D21548A5900EAFAA0 /* Label+MLCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+MLCreate.swift"; sourceTree = "<group>"; };
 		184B813F215496D200EAFAA0 /* View+MLAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+MLAdd.swift"; sourceTree = "<group>"; };
+		189ECB28215C786E00CD29B6 /* MLClockListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockListViewController.swift; sourceTree = "<group>"; };
+		189ECB36215C882F00CD29B6 /* MLClockListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockListManager.swift; sourceTree = "<group>"; };
+		18B3F0CF216D9F6D00874E5C /* MLClockDefineConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDefineConstants.swift; sourceTree = "<group>"; };
 		18BB5E1C21534ABA0088EB96 /* MLClockTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLClockTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BB5E1F21534ABA0088EB96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BB5E2621534AC00088EB96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +70,9 @@
 		18BB5E3B21534AC10088EB96 /* MLClockToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLClockToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BB5E3F21534AC10088EB96 /* MLClockToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockToolUITests.swift; sourceTree = "<group>"; };
 		18BB5E4121534AC10088EB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C9EC97215CC15200C9CAC6 /* MLClockListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockListTableViewCell.swift; sourceTree = "<group>"; };
+		18C9EC99215CC2C900C9CAC6 /* MLClockNullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockNullView.swift; sourceTree = "<group>"; };
+		18C9EC9B215CD09100C9CAC6 /* View+MLLayoutExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+MLLayoutExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180AD3C7216EE667009E3ABD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1811A1F7216D9AA400927D36 /* MLClockDateProtocol.swift */,
+				1832245A21537AE6009A7439 /* MLClockDataList.swift */,
+				1811A1F9216D9B3C00927D36 /* MLClockDateModel.swift */,
+				1811A1FD216D9C3800927D36 /* MLClockOffsetDayDateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180AD3C8216EE680009E3ABD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				189ECB36215C882F00CD29B6 /* MLClockListManager.swift */,
+				1832245E21538186009A7439 /* MLClockDateManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		184B8136215489C500EAFAA0 /* Module */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +131,9 @@
 		184B8137215489C500EAFAA0 /* ClockTool */ = {
 			isa = PBXGroup;
 			children = (
+				180AD3C8216EE680009E3ABD /* Managers */,
+				180AD3C7216EE667009E3ABD /* Model */,
+				18B3F0CE216D9F5E00874E5C /* Constants */,
 				184B813A215489F500EAFAA0 /* Vs */,
 				184B8139215489D700EAFAA0 /* Cs */,
 			);
@@ -108,7 +143,7 @@
 		184B8139215489D700EAFAA0 /* Cs */ = {
 			isa = PBXGroup;
 			children = (
-				183224562153761F009A7439 /* MLClockViewController.swift */,
+				189ECB28215C786E00CD29B6 /* MLClockListViewController.swift */,
 			);
 			path = Cs;
 			sourceTree = "<group>";
@@ -117,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				184B81332154884200EAFAA0 /* MLClockDetailView.swift */,
+				18C9EC97215CC15200C9CAC6 /* MLClockListTableViewCell.swift */,
+				18C9EC99215CC2C900C9CAC6 /* MLClockNullView.swift */,
 			);
 			path = Vs;
 			sourceTree = "<group>";
@@ -124,6 +161,7 @@
 		184B813B21548A2900EAFAA0 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				18C9EC9D215CD0C800C9CAC6 /* Layout */,
 				184B813C21548A2900EAFAA0 /* Extension */,
 			);
 			path = Tools;
@@ -136,6 +174,14 @@
 				184B813F215496D200EAFAA0 /* View+MLAdd.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		18B3F0CE216D9F5E00874E5C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				18B3F0CF216D9F6D00874E5C /* MLClockDefineConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		18BB5E1321534ABA0088EB96 = {
@@ -164,10 +210,6 @@
 				184B813B21548A2900EAFAA0 /* Tools */,
 				184B8136215489C500EAFAA0 /* Module */,
 				18BB5E1F21534ABA0088EB96 /* AppDelegate.swift */,
-				1832245A21537AE6009A7439 /* MLClockDataList.swift */,
-				1832245821537779009A7439 /* MLClockTableViewCell.swift */,
-				1832245C21537E3A009A7439 /* MLClockTableProtocolManager.swift */,
-				1832245E21538186009A7439 /* MLClockDateManager.swift */,
 				18BB5E2621534AC00088EB96 /* Assets.xcassets */,
 				18BB5E2821534AC00088EB96 /* LaunchScreen.storyboard */,
 				183224542153719F009A7439 /* Main.storyboard */,
@@ -192,6 +234,14 @@
 				18BB5E4121534AC10088EB96 /* Info.plist */,
 			);
 			path = MLClockToolUITests;
+			sourceTree = "<group>";
+		};
+		18C9EC9D215CD0C800C9CAC6 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				18C9EC9B215CD09100C9CAC6 /* View+MLLayoutExtension.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,12 +376,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				184B81342154884200EAFAA0 /* MLClockDetailView.swift in Sources */,
-				1832245921537779009A7439 /* MLClockTableViewCell.swift in Sources */,
-				183224572153761F009A7439 /* MLClockViewController.swift in Sources */,
+				189ECB37215C882F00CD29B6 /* MLClockListManager.swift in Sources */,
+				1811A1FE216D9C3800927D36 /* MLClockOffsetDayDateModel.swift in Sources */,
+				18B3F0D0216D9F6D00874E5C /* MLClockDefineConstants.swift in Sources */,
 				184B8140215496D200EAFAA0 /* View+MLAdd.swift in Sources */,
+				18C9EC98215CC15200C9CAC6 /* MLClockListTableViewCell.swift in Sources */,
+				189ECB29215C786E00CD29B6 /* MLClockListViewController.swift in Sources */,
 				18BB5E2021534ABA0088EB96 /* AppDelegate.swift in Sources */,
+				1811A1F8216D9AA400927D36 /* MLClockDateProtocol.swift in Sources */,
+				1811A1FA216D9B3C00927D36 /* MLClockDateModel.swift in Sources */,
+				18C9EC9A215CC2C900C9CAC6 /* MLClockNullView.swift in Sources */,
 				1832245B21537AE6009A7439 /* MLClockDataList.swift in Sources */,
-				1832245D21537E3A009A7439 /* MLClockTableProtocolManager.swift in Sources */,
+				18C9EC9C215CD09100C9CAC6 /* View+MLLayoutExtension.swift in Sources */,
 				1832245F21538186009A7439 /* MLClockDateManager.swift in Sources */,
 				184B813E21548A5900EAFAA0 /* Label+MLCreate.swift in Sources */,
 			);

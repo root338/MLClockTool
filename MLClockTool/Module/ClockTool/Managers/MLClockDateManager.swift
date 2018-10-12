@@ -31,7 +31,15 @@ extension MLClockDateManager {
     
     func format(date: Date) -> String {
         let dateComponents = calendar.dateComponents(MLClockDateDefaultUnit, from: date)
-        return "\(dateComponents.year!)-\(dateComponents.month!)-\(dateComponents.day!) \(dateComponents.hour!):\(dateComponents.minute!)"
+        return "\(dateComponents.year!)-\(String(format: "%02i", dateComponents.month!))-\(String(format: "%02i", dateComponents.day!)) \(String(format: "%02i", dateComponents.hour!)):\(String(format: "%02i", dateComponents.minute!))"
+    }
+    
+    func dateComponent(date: Date, units: Set<Calendar.Component> = [.year, .month, .day, .hour, .minute]) -> DateComponents {
+        return calendar.dateComponents(units, from: date)
+    }
+    
+    func date(dateComponent: DateComponents) -> Date? {
+        return calendar.date(from: dateComponent)
     }
 }
 
@@ -39,6 +47,6 @@ extension MLClockDateManager {
 extension MLClockDateManager {
     func range(fromDate: Date, toDate: Date) -> String {
         let dateComponent = calendar.dateComponents([.hour, .minute], from: fromDate, to: toDate)
-        return "\(dateComponent.hour!):\(dateComponent.minute!)"
+        return "\(String(format: "%02i", dateComponent.hour!)):\(String(format: "%02i", dateComponent.minute!))"
     }
 }
