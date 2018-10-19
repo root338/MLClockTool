@@ -8,22 +8,42 @@
 
 import UIKit
 
-private let MLClockListDataKey = "MLClockEndDataKey"
-
 class MLClockDataHelper {
+    
+    enum ClockDataResultType {
+        case success
+        case faild
+    }
+    
     class func getClockDataList(completion: @escaping ([MLClockDateProtocol]?) -> Void) {
         let queue = DispatchQueue.global(qos: .default)
         queue.async {
-            let clockListData = UserDefaults.standard.array(forKey: MLClockListDataKey) as? [MLClockDateProtocol]
+            let clockListData = NSKeyedUnarchiver.unarchiveObject(withFile: MLClockDataHelper.clockFilePath()) as? [MLClockDateProtocol]
             DispatchQueue.main.async {
                 completion(clockListData)
             }
         }
     }
     
-    class func save(clockList: [MLClockDateProtocol]) {
+    class func save(clockList: [MLClockDateProtocol], completion: ((ClockDataResultType) -> Void)? = nil) {
         DispatchQueue.global().async {
-            UserDefaults.standard.set(clockList, forKey: MLClockListDataKey)
+            
+            let resultValue = NSKeyedArchiver.archiveRootObject(clockList, toFile: MLClockDataHelper.clockFilePath())
+            completion?(resultValue ? ClockDataResultType.success : ClockDataResultType.faild)
         }
+    }
+    
+    private class func clockFilePath() ->String {
+        let path = NSSearchPathForDirectoriesInDomains(.libraryDirectory, .userDomainMask, true).last!
+        let clockFileName = "clockDate.ml";
+        let clockFolderPath = (path as NSString).appendingPathComponent("MeSaveDate")
+        if !FileManager.default.fileExists(atPath: clockFolderPath) {
+            
+            do {
+                try FileManager.default.createDirectory(atPath: clockFolderPath, withIntermediateDirectories: true, attributes: nil)
+            }catch {
+            }
+        }
+        return (clockFolderPath as NSString).appendingPathComponent(clockFileName)
     }
 }

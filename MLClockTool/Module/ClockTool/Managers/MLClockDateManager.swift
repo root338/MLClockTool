@@ -49,4 +49,15 @@ extension MLClockDateManager {
         let dateComponent = calendar.dateComponents([.hour, .minute], from: fromDate, to: toDate)
         return "\(String(format: "%02i", dateComponent.hour!)):\(String(format: "%02i", dateComponent.minute!))"
     }
+    
+    func isEqual(date1: Date?, date2: Date?) ->Bool {
+        if date1 == nil && date2 == nil {
+            return true
+        }else {
+            guard let d1 = date1, let d2 = date2 else {
+                return false
+            }
+            return d1.compare(d2) == .orderedSame
+        }
+    }
 }

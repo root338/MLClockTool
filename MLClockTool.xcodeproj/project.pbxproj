@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180114E321707F2F005C543F /* MLClockEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180114E221707F2F005C543F /* MLClockEditView.swift */; };
+		180114E521707F57005C543F /* MLClockEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180114E421707F57005C543F /* MLClockEditViewController.swift */; };
+		180114E721707F85005C543F /* MLClockEditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180114E621707F85005C543F /* MLClockEditManager.swift */; };
 		1811A1F8216D9AA400927D36 /* MLClockDateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811A1F7216D9AA400927D36 /* MLClockDateProtocol.swift */; };
 		1811A1FA216D9B3C00927D36 /* MLClockDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811A1F9216D9B3C00927D36 /* MLClockDateModel.swift */; };
 		1811A1FE216D9C3800927D36 /* MLClockOffsetDayDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811A1FD216D9C3800927D36 /* MLClockOffsetDayDateModel.swift */; };
 		183224552153719F009A7439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183224542153719F009A7439 /* Main.storyboard */; };
 		1832245B21537AE6009A7439 /* MLClockDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832245A21537AE6009A7439 /* MLClockDataList.swift */; };
 		1832245F21538186009A7439 /* MLClockDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832245E21538186009A7439 /* MLClockDateManager.swift */; };
-		184B81342154884200EAFAA0 /* MLClockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B81332154884200EAFAA0 /* MLClockDetailView.swift */; };
 		184B813E21548A5900EAFAA0 /* Label+MLCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B813D21548A5900EAFAA0 /* Label+MLCreate.swift */; };
 		184B8140215496D200EAFAA0 /* View+MLAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B813F215496D200EAFAA0 /* View+MLAdd.swift */; };
+		184D58332174661E0093E394 /* MLHoursPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D58322174661E0093E394 /* MLHoursPickerManager.swift */; };
+		184D5835217469AC0093E394 /* MLTitleTextFieldItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D5834217469AC0093E394 /* MLTitleTextFieldItem.swift */; };
+		184D5837217586A20093E394 /* MLClockEditOffsetDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D5836217586A20093E394 /* MLClockEditOffsetDayViewController.swift */; };
+		184D58392175B7A60093E394 /* MLDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D58382175B7A60093E394 /* MLDatePickerView.swift */; };
+		184D583B2175B7C40093E394 /* MLDatePickerToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D583A2175B7C40093E394 /* MLDatePickerToolView.swift */; };
+		184D583D2175DD1D0093E394 /* MLHourDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D583C2175DD1D0093E394 /* MLHourDatePickerView.swift */; };
+		184D583F2175DE9B0093E394 /* MLSelectorAlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D583E2175DE9B0093E394 /* MLSelectorAlertProtocol.swift */; };
+		184D58412175DFD20093E394 /* MLDatePickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D58402175DFD20093E394 /* MLDatePickerHelper.swift */; };
+		184D584421771EAC0093E394 /* MLClockEditProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D584321771EAC0093E394 /* MLClockEditProtocol.swift */; };
+		184D584621782DCC0093E394 /* MLClockEditNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D584521782DCC0093E394 /* MLClockEditNavigationViewController.swift */; };
+		184D584821782F230093E394 /* UIResponder+MLAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D584721782F230093E394 /* UIResponder+MLAdd.swift */; };
 		189ECB29215C786E00CD29B6 /* MLClockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ECB28215C786E00CD29B6 /* MLClockListViewController.swift */; };
 		189ECB37215C882F00CD29B6 /* MLClockListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ECB36215C882F00CD29B6 /* MLClockListManager.swift */; };
 		18B3F0D0216D9F6D00874E5C /* MLClockDefineConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3F0CF216D9F6D00874E5C /* MLClockDefineConstants.swift */; };
@@ -47,15 +60,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180114E221707F2F005C543F /* MLClockEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockEditView.swift; sourceTree = "<group>"; };
+		180114E421707F57005C543F /* MLClockEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockEditViewController.swift; sourceTree = "<group>"; };
+		180114E621707F85005C543F /* MLClockEditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockEditManager.swift; sourceTree = "<group>"; };
 		1811A1F7216D9AA400927D36 /* MLClockDateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDateProtocol.swift; sourceTree = "<group>"; };
 		1811A1F9216D9B3C00927D36 /* MLClockDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDateModel.swift; sourceTree = "<group>"; };
 		1811A1FD216D9C3800927D36 /* MLClockOffsetDayDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockOffsetDayDateModel.swift; sourceTree = "<group>"; };
 		183224542153719F009A7439 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1832245A21537AE6009A7439 /* MLClockDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDataList.swift; sourceTree = "<group>"; };
 		1832245E21538186009A7439 /* MLClockDateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDateManager.swift; sourceTree = "<group>"; };
-		184B81332154884200EAFAA0 /* MLClockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDetailView.swift; sourceTree = "<group>"; };
 		184B813D21548A5900EAFAA0 /* Label+MLCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+MLCreate.swift"; sourceTree = "<group>"; };
 		184B813F215496D200EAFAA0 /* View+MLAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+MLAdd.swift"; sourceTree = "<group>"; };
+		184D58322174661E0093E394 /* MLHoursPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLHoursPickerManager.swift; sourceTree = "<group>"; };
+		184D5834217469AC0093E394 /* MLTitleTextFieldItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLTitleTextFieldItem.swift; sourceTree = "<group>"; };
+		184D5836217586A20093E394 /* MLClockEditOffsetDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockEditOffsetDayViewController.swift; sourceTree = "<group>"; };
+		184D58382175B7A60093E394 /* MLDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLDatePickerView.swift; sourceTree = "<group>"; };
+		184D583A2175B7C40093E394 /* MLDatePickerToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLDatePickerToolView.swift; sourceTree = "<group>"; };
+		184D583C2175DD1D0093E394 /* MLHourDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLHourDatePickerView.swift; sourceTree = "<group>"; };
+		184D583E2175DE9B0093E394 /* MLSelectorAlertProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLSelectorAlertProtocol.swift; sourceTree = "<group>"; };
+		184D58402175DFD20093E394 /* MLDatePickerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLDatePickerHelper.swift; sourceTree = "<group>"; };
+		184D584321771EAC0093E394 /* MLClockEditProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockEditProtocol.swift; sourceTree = "<group>"; };
+		184D584521782DCC0093E394 /* MLClockEditNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockEditNavigationViewController.swift; sourceTree = "<group>"; };
+		184D584721782F230093E394 /* UIResponder+MLAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+MLAdd.swift"; sourceTree = "<group>"; };
 		189ECB28215C786E00CD29B6 /* MLClockListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockListViewController.swift; sourceTree = "<group>"; };
 		189ECB36215C882F00CD29B6 /* MLClockListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockListManager.swift; sourceTree = "<group>"; };
 		18B3F0CF216D9F6D00874E5C /* MLClockDefineConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDefineConstants.swift; sourceTree = "<group>"; };
@@ -103,7 +129,6 @@
 		180AD3C7216EE667009E3ABD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1811A1F7216D9AA400927D36 /* MLClockDateProtocol.swift */,
 				1832245A21537AE6009A7439 /* MLClockDataList.swift */,
 				1811A1F9216D9B3C00927D36 /* MLClockDateModel.swift */,
 				1811A1FD216D9C3800927D36 /* MLClockOffsetDayDateModel.swift */,
@@ -116,6 +141,7 @@
 			children = (
 				189ECB36215C882F00CD29B6 /* MLClockListManager.swift */,
 				1832245E21538186009A7439 /* MLClockDateManager.swift */,
+				180114E621707F85005C543F /* MLClockEditManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -131,6 +157,7 @@
 		184B8137215489C500EAFAA0 /* ClockTool */ = {
 			isa = PBXGroup;
 			children = (
+				184D584221771E950093E394 /* Other */,
 				180AD3C8216EE680009E3ABD /* Managers */,
 				180AD3C7216EE667009E3ABD /* Model */,
 				18B3F0CE216D9F5E00874E5C /* Constants */,
@@ -144,6 +171,10 @@
 			isa = PBXGroup;
 			children = (
 				189ECB28215C786E00CD29B6 /* MLClockListViewController.swift */,
+				180114E421707F57005C543F /* MLClockEditViewController.swift */,
+				184D5836217586A20093E394 /* MLClockEditOffsetDayViewController.swift */,
+				184D584521782DCC0093E394 /* MLClockEditNavigationViewController.swift */,
+				184D584721782F230093E394 /* UIResponder+MLAdd.swift */,
 			);
 			path = Cs;
 			sourceTree = "<group>";
@@ -151,9 +182,14 @@
 		184B813A215489F500EAFAA0 /* Vs */ = {
 			isa = PBXGroup;
 			children = (
-				184B81332154884200EAFAA0 /* MLClockDetailView.swift */,
+				184D58382175B7A60093E394 /* MLDatePickerView.swift */,
+				184D583C2175DD1D0093E394 /* MLHourDatePickerView.swift */,
+				184D583E2175DE9B0093E394 /* MLSelectorAlertProtocol.swift */,
 				18C9EC97215CC15200C9CAC6 /* MLClockListTableViewCell.swift */,
 				18C9EC99215CC2C900C9CAC6 /* MLClockNullView.swift */,
+				180114E221707F2F005C543F /* MLClockEditView.swift */,
+				184D583A2175B7C40093E394 /* MLDatePickerToolView.swift */,
+				184D58402175DFD20093E394 /* MLDatePickerHelper.swift */,
 			);
 			path = Vs;
 			sourceTree = "<group>";
@@ -161,6 +197,7 @@
 		184B813B21548A2900EAFAA0 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				184D5831217465EF0093E394 /* View */,
 				18C9EC9D215CD0C800C9CAC6 /* Layout */,
 				184B813C21548A2900EAFAA0 /* Extension */,
 			);
@@ -174,6 +211,24 @@
 				184B813F215496D200EAFAA0 /* View+MLAdd.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		184D5831217465EF0093E394 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184D58322174661E0093E394 /* MLHoursPickerManager.swift */,
+				184D5834217469AC0093E394 /* MLTitleTextFieldItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184D584221771E950093E394 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1811A1F7216D9AA400927D36 /* MLClockDateProtocol.swift */,
+				184D584321771EAC0093E394 /* MLClockEditProtocol.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		18B3F0CE216D9F5E00874E5C /* Constants */ = {
@@ -375,21 +430,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184B81342154884200EAFAA0 /* MLClockDetailView.swift in Sources */,
 				189ECB37215C882F00CD29B6 /* MLClockListManager.swift in Sources */,
 				1811A1FE216D9C3800927D36 /* MLClockOffsetDayDateModel.swift in Sources */,
 				18B3F0D0216D9F6D00874E5C /* MLClockDefineConstants.swift in Sources */,
 				184B8140215496D200EAFAA0 /* View+MLAdd.swift in Sources */,
+				184D583F2175DE9B0093E394 /* MLSelectorAlertProtocol.swift in Sources */,
+				184D584821782F230093E394 /* UIResponder+MLAdd.swift in Sources */,
+				184D584421771EAC0093E394 /* MLClockEditProtocol.swift in Sources */,
+				180114E521707F57005C543F /* MLClockEditViewController.swift in Sources */,
+				180114E321707F2F005C543F /* MLClockEditView.swift in Sources */,
 				18C9EC98215CC15200C9CAC6 /* MLClockListTableViewCell.swift in Sources */,
+				184D583D2175DD1D0093E394 /* MLHourDatePickerView.swift in Sources */,
 				189ECB29215C786E00CD29B6 /* MLClockListViewController.swift in Sources */,
 				18BB5E2021534ABA0088EB96 /* AppDelegate.swift in Sources */,
+				184D5837217586A20093E394 /* MLClockEditOffsetDayViewController.swift in Sources */,
+				184D58332174661E0093E394 /* MLHoursPickerManager.swift in Sources */,
 				1811A1F8216D9AA400927D36 /* MLClockDateProtocol.swift in Sources */,
+				184D5835217469AC0093E394 /* MLTitleTextFieldItem.swift in Sources */,
 				1811A1FA216D9B3C00927D36 /* MLClockDateModel.swift in Sources */,
+				184D58412175DFD20093E394 /* MLDatePickerHelper.swift in Sources */,
 				18C9EC9A215CC2C900C9CAC6 /* MLClockNullView.swift in Sources */,
 				1832245B21537AE6009A7439 /* MLClockDataList.swift in Sources */,
 				18C9EC9C215CD09100C9CAC6 /* View+MLLayoutExtension.swift in Sources */,
 				1832245F21538186009A7439 /* MLClockDateManager.swift in Sources */,
+				184D58392175B7A60093E394 /* MLDatePickerView.swift in Sources */,
+				180114E721707F85005C543F /* MLClockEditManager.swift in Sources */,
 				184B813E21548A5900EAFAA0 /* Label+MLCreate.swift in Sources */,
+				184D584621782DCC0093E394 /* MLClockEditNavigationViewController.swift in Sources */,
+				184D583B2175B7C40093E394 /* MLDatePickerToolView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +626,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29W9687J6A;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = MLClockTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -577,6 +646,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29W9687J6A;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = MLClockTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
