@@ -13,8 +13,6 @@ enum MLClockListDataStatus {
     case isEmpty
 }
 
-private let MLClockListCountKey = "count"
-
 class MLClockListManager: NSObject {
     
     var clockList = [MLClockDateProtocol]()
@@ -63,6 +61,7 @@ extension MLClockListManager : UITableViewDataSource {
         let clockObj = clockList[indexPath.row]
         cell.offsetTimeLabel.text = clockObj.offsetTime
         cell.dateRangeLabel.text = clockObj.timeRangeText
+        cell.selectionStyle = .none
         
         return cell
     }
