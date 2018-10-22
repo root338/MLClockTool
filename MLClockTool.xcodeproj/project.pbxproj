@@ -14,7 +14,7 @@
 		1811A1FA216D9B3C00927D36 /* MLClockDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811A1F9216D9B3C00927D36 /* MLClockDateModel.swift */; };
 		1811A1FE216D9C3800927D36 /* MLClockOffsetDayDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811A1FD216D9C3800927D36 /* MLClockOffsetDayDateModel.swift */; };
 		183224552153719F009A7439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183224542153719F009A7439 /* Main.storyboard */; };
-		1832245B21537AE6009A7439 /* MLClockDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832245A21537AE6009A7439 /* MLClockDataList.swift */; };
+		1832245B21537AE6009A7439 /* MLClockDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832245A21537AE6009A7439 /* MLClockDataHelper.swift */; };
 		1832245F21538186009A7439 /* MLClockDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832245E21538186009A7439 /* MLClockDateManager.swift */; };
 		184B813E21548A5900EAFAA0 /* Label+MLCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B813D21548A5900EAFAA0 /* Label+MLCreate.swift */; };
 		184B8140215496D200EAFAA0 /* View+MLAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B813F215496D200EAFAA0 /* View+MLAdd.swift */; };
@@ -67,7 +67,7 @@
 		1811A1F9216D9B3C00927D36 /* MLClockDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDateModel.swift; sourceTree = "<group>"; };
 		1811A1FD216D9C3800927D36 /* MLClockOffsetDayDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockOffsetDayDateModel.swift; sourceTree = "<group>"; };
 		183224542153719F009A7439 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		1832245A21537AE6009A7439 /* MLClockDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDataList.swift; sourceTree = "<group>"; };
+		1832245A21537AE6009A7439 /* MLClockDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDataHelper.swift; sourceTree = "<group>"; };
 		1832245E21538186009A7439 /* MLClockDateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClockDateManager.swift; sourceTree = "<group>"; };
 		184B813D21548A5900EAFAA0 /* Label+MLCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+MLCreate.swift"; sourceTree = "<group>"; };
 		184B813F215496D200EAFAA0 /* View+MLAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+MLAdd.swift"; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		180AD3C7216EE667009E3ABD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1832245A21537AE6009A7439 /* MLClockDataList.swift */,
+				1832245A21537AE6009A7439 /* MLClockDataHelper.swift */,
 				1811A1F9216D9B3C00927D36 /* MLClockDateModel.swift */,
 				1811A1FD216D9C3800927D36 /* MLClockOffsetDayDateModel.swift */,
 			);
@@ -450,7 +450,7 @@
 				1811A1FA216D9B3C00927D36 /* MLClockDateModel.swift in Sources */,
 				184D58412175DFD20093E394 /* MLDatePickerHelper.swift in Sources */,
 				18C9EC9A215CC2C900C9CAC6 /* MLClockNullView.swift in Sources */,
-				1832245B21537AE6009A7439 /* MLClockDataList.swift in Sources */,
+				1832245B21537AE6009A7439 /* MLClockDataHelper.swift in Sources */,
 				18C9EC9C215CD09100C9CAC6 /* View+MLLayoutExtension.swift in Sources */,
 				1832245F21538186009A7439 /* MLClockDateManager.swift in Sources */,
 				184D58392175B7A60093E394 /* MLDatePickerView.swift in Sources */,

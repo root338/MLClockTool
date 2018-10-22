@@ -18,11 +18,13 @@ class MLClockDateModel: NSObject, MLClockDateProtocol {
         if fromDate != nil {
             aCoder.encode(fromDate!, forKey: "fromDate")
         }
+        aCoder.encode(isRealTimeRefresh, forKey: "isRealTimeRefresh")
     }
     
     required init?(coder aDecoder: NSCoder) {
         self.toDate = aDecoder.decodeObject(forKey: "toDate") as? Date
         self.fromDate = aDecoder.decodeObject(forKey: "fromDate") as? Date
+        isRealTimeRefresh = aDecoder.decodeBool(forKey: "isRealTimeRefresh")
     }
     
     var clockEditType: MLClockEditType {
@@ -32,6 +34,7 @@ class MLClockDateModel: NSObject, MLClockDateProtocol {
     var toDate : Date?
     /// 当为nil时，用当前时间来处理
     var fromDate : Date?
+    var isRealTimeRefresh: Bool = false
     
     init(toDate: Date) {
         self.toDate = toDate

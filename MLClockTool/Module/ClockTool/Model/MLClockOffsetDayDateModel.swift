@@ -43,6 +43,10 @@ class MLClockOffsetDayDateModel: NSObject, MLClockDateProtocol {
     /// 秒 [0, 59]
     var second : Int = 0
     
+    var isRealTimeRefresh: Bool {
+        return true
+    }
+    
     /// 是否是可用的时间区间
     var isAvailableDateRange : Bool {
         return toDate != nil

@@ -51,8 +51,9 @@ extension MLClockDateManager {
     }
     
     func isEqual(date1: Date?, date2: Date?) ->Bool {
+        
         if date1 == nil && date2 == nil {
-            return true
+            return false
         }else {
             guard let d1 = date1, let d2 = date2 else {
                 return false

@@ -10,6 +10,8 @@ import Foundation
 
 //MARK:- 常量字符串
 let MLClockCurrentTimeText = "当前时间"
+let MLClockTodayText = "今天"
+let MLClockTomorrowText = "明天"
 
 //MARK:- Segue 相关
 /// 添加 clock 标识
@@ -21,6 +23,9 @@ let MLDismissEditKey = "MLDismissEditKey"
 
 //MARK:- parameters key
 let MLSaveClockDateKey = "MLSaveClockDateKey"
+
+//MARK:- NotificationName
+let MLClockWillTerminateNotification: Notification.Name = Notification.Name(rawValue: "MLWillTerminateNotification")
 
 
 //MARK:- Error Message
